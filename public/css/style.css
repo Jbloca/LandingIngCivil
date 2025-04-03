@@ -10735,7 +10735,7 @@ body.flyout-searchbar-active .wraper_flyout_search > .table > .table-cell .flyou
   position:relative;
   height:2px;
   width:28px;
-  float:right;
+  display: inline-block;
   display:inline-block;
   margin-bottom:7px;
   background-color:#ff5e85;
@@ -11241,6 +11241,7 @@ body.flyout-searchbar-active .wraper_flyout_search > .table > .table-cell .flyou
   color: transparent;
   background: -webkit-linear-gradient(0deg, #fc9636, #fd4471 50%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

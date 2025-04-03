@@ -1,4 +1,4 @@
 source: docs
 destination: docs/_site
 sass:
-  sass_dir: assets/css
+  sass_dir: assets/css  
