@@ -1,0 +1,15 @@
+{
+  "name": "subsequent-series",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "deploy": "astro build && gh-pages -d dist",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.5.6"
+  }
+}
