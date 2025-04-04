@@ -10,6 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.5.6"
+    "aos": "^2.3.4",
+    "astro": "^5.5.6",
+    "bootstrap": "^5.3.4",
+    "fancybox": "^3.0.1",
+    "jquery": "^3.7.1",
+    "wowjs": "^1.1.3"
   }
 }
