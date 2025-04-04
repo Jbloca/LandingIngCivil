@@ -1,6 +1,7 @@
 export default {
-    build: {
-      sourcemap: false, 
-      publicDir: "public",// Desactiva los mapas de origen
-    },
-  };
+  base: '/LandingIngCivil/', // Asegúrate de que coincida con el nombre del repositorio
+  build: {
+    sourcemap: false,
+    publicDir: "public",
+  },
+};

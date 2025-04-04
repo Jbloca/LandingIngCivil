@@ -20,19 +20,18 @@ layout: "../layouts/default.astro"
 <script src="https://kit.fontawesome.com/29354132f5.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=manufacturing" />
 
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/aos.css">
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/css">
-<link rel="stylesheet" href="css/flaticon.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/jquery-ui.css">
-<link rel="stylesheet" href="css/jquery.bootstrap-touchspin.css">
-<link rel="stylesheet" href="css/owl.css">
-<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/style.css`}>
+<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/animate.css`}>
+<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/aos.css`}>
+<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/bootstrap.css`}>
+<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/flaticon.css`}>
+<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/font-awesome.min.css`}>
+<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/jquery-ui.css`}>
+<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/jquery.bootstrap-touchspin.css`}>
+<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/owl.css`}>
+<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/responsive.css`}>
 
-<script src="js/owl.js" is:inline></script>
+<script src={`${import.meta.env.BASE_URL}js/owl.js`} is:inline></script>
 
 </head>
 
@@ -106,7 +105,7 @@ layout: "../layouts/default.astro"
                             <span>Av. Javier Prado 2245, San Isidro</span>
                         </div>
                         <div class="logo-box">
-                            <figure class="logo"><a href="index.html"><img src="/imagenes/logo.png" alt=""></a></figure>
+                            <figure class="logo"><a href="index.html"><img src={`${import.meta.env.BASE_URL}imagenes/logo.png`} alt=""></a></figure>
                         </div>
                     </div>
                     <div class="right-content pull-right">
@@ -256,7 +255,7 @@ layout: "../layouts/default.astro"
         <!--sticky Header-->
         <div class="sticky-header">
             <div class="container clearfix">
-                <figure class="logo-box"><a href="index.html"><img src="/imagenes/small-logo.png" alt=""></a></figure>
+                <figure class="logo-box"><a href="index.html"><img src={`${import.meta.env.BASE_URL}imagenes/small-logo.png`} alt=""></a></figure>
                 <div class="menu-area">
                     <nav class="main-menu navbar-expand-lg">
                         <div class="navbar-header">
@@ -367,7 +366,7 @@ layout: "../layouts/default.astro"
     <!-- main-slider -->
     <section class="main-slider">
         <div class="main-slider-carousel owl-carousel owl-theme">
-            <div class="slide" style="background-image: url('/imagenes/slider-1.jpg');">
+            <div class="slide" style="background-image: url('${import.meta.env.BASE_URL}imagenes/slider-1.jpg');">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-md-12 col-sm-12 content-column">
@@ -383,14 +382,14 @@ layout: "../layouts/default.astro"
                         </div>
                         <div class="col-lg-4 col-md-12 col-sm-12 image-column">
                             <div class="image-box">
-                                <figure class="image"><img src="/imagenes/wheel-1.png" alt="">
+                                <figure class="image"><img src={`${import.meta.env.BASE_URL}imagenes/wheel-1.png`} alt="">
                                 </figure>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="slide" style="background-image: url('/imagenes/slider-2.jpg');">
+            <div class="slide" style="background-image: url('${import.meta.env.BASE_URL}imagenes/slider-2.jpg');">
 
                 <div class="container">
                     <div class="row">
@@ -407,13 +406,13 @@ layout: "../layouts/default.astro"
                         </div>
                         <div class="col-lg-4 col-md-12 col-sm-12 image-column">
                             <div class="image-box">
-                                <figure class="image"><img src="/imagenes/wheel-1.png" alt="">
+                                <figure class="image"><img src={`${import.meta.env.BASE_URL}imagenes/wheel-1.png`} alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="slide" style="background-image: url('/imagenes/slider-3.jpg');">
+            <div class="slide" style="background-image: url('${import.meta.env.BASE_URL}imagenes/slider-3.jpg');">
 
                 <div class="container">
                     <div class="row">
@@ -430,7 +429,7 @@ layout: "../layouts/default.astro"
                         </div>
                         <div class="col-lg-4 col-md-12 col-sm-12 image-column">
                             <div class="image-box">
-                                <figure class="image"><img src="/imagenes/wheel-1.png" alt=""></figure>
+                                <figure class="image"><img src={`${import.meta.env.BASE_URL}imagenes/wheel-1.png`} alt=""></figure>
                             </div>
                         </div>
                     </div>
@@ -475,7 +474,7 @@ layout: "../layouts/default.astro"
                         <div class="inner-box">
                             <h2>Fabricantes de componentes para automóviles</h2>
                             <h3>trabajadores de todo el pais</h3>
-                            <figure class="icon-box"><img src="/imagenes/gear-1.png" alt=""></figure>
+                            <figure class="icon-box"><img src={`${import.meta.env.BASE_URL}imagenes/gear-1.png`} alt=""></figure>
                             <div class="link-btn"><a href="history.html">NUESTRA HISTORIA</a></div>
                         </div>
                     </div>
@@ -491,7 +490,7 @@ layout: "../layouts/default.astro"
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <figure class="image clearfix wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms"><img src="/imagenes/mission-1.png" alt=""></figure>
+                    <figure class="image clearfix wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms"><img src={`${import.meta.env.BASE_URL}imagenes/mission-1.png`} alt=""></figure>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
@@ -538,7 +537,7 @@ layout: "../layouts/default.astro"
                 <div class="col-lg-6 col-md-12 col-sm-12 service-block">
                     <div class="service-block-one wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="service-single.html"><img src="/imagenes/service-1.png" alt=""></a></figure>
+                            <figure class="image-box"><a href="service-single.html"><img src={`${import.meta.env.BASE_URL}imagenes/service-1.jpg`} alt="Service 1"></a></figure>
                             <div class="content-box">
                                 <div class="icon-box"><i class="fa-solid fa-industry"></i></div>
                                 <h3><a href="blog-single.html">Petróleo y Gas Energía</a></h3>
@@ -551,9 +550,9 @@ layout: "../layouts/default.astro"
                 <div class="col-lg-6 col-md-12 col-sm-12 service-block">
                     <div class="service-block-one wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="service-single.html"><img src="/imagenes/service-2.png" alt=""></a></figure>
+                            <figure class="image-box"><a href="service-single.html"><img src={`${import.meta.env.BASE_URL}imagenes/service-2.jpg`} alt="Service 2"></a></figure>
                             <div class="content-box">
-                                <div class="icon-box"><i class="fa-solid fa-oil-well"></i></div>
+                                <div class="icon-box"><i class="fa fa-oil-well"></i></div>
                                 <h3><a href="blog-single.html">Directores generales de fabricación</a></h3>
                                 <div class="text">Refinerías de petróleo, transporte de combustible y venta al usuario final en gasolineras. la industria del gas, incluido el natural</div>
                                 <div class="link-btn"><a href="service-single.html">Continúa<i class="fas fa-arrow-right"></i></a></div>
@@ -564,9 +563,9 @@ layout: "../layouts/default.astro"
                 <div class="col-lg-6 col-md-12 col-sm-12 service-block">
                     <div class="service-block-one wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="service-single.html"><img src="/imagenes/service-3.png" alt=""></a></figure>
+                            <figure class="image-box"><a href="service-single.html"><img src={`${import.meta.env.BASE_URL}imagenes/service-3.jpg`} alt="Service 3"></a></figure>
                             <div class="content-box">
-                                <div class="icon-box"><i class="fa-solid fa-circle-radiation"></i></div>
+                                <div class="icon-box"><i class="fa fa-circle-radiation"></i></div>
                                 <h3><a href="blog-single.html">Electricidad y energía</a></h3>
                                 <div class="text">Refinerías de petróleo, transporte de combustible y venta al usuario final en gasolineras. la industria del gas, incluido el natural</div>
                                 <div class="link-btn"><a href="service-single.html">Continúa<i class="fas fa-arrow-right"></i></a></div>
@@ -577,7 +576,7 @@ layout: "../layouts/default.astro"
                 <div class="col-lg-6 col-md-12 col-sm-12 service-block">
                     <div class="service-block-one wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="service-single.html"><img src="/imagenes/service-4.png" alt=""></a></figure>
+                            <figure class="image-box"><a href="service-single.html"><img src={`${import.meta.env.BASE_URL}imagenes/service-4.jpg`} alt="Service 4"></a></figure>
                             <div class="content-box">
                                 <div class="icon-box"><i class="fa-solid fa-fax"></i></div>
                                 <h3><a href="blog-single.html">Grandes Industrias</a></h3>
@@ -631,7 +630,7 @@ layout: "../layouts/default.astro"
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                        <figure class="image-box wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms"><img src="/imagenes/about-1.jpg" alt=""></figure>
+                        <figure class="image-box wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms"><img src={`${import.meta.env.BASE_URL}imagenes/about-1.jpg`} alt=""></figure>
                     </div>
                 </div>
             </div>
@@ -641,7 +640,7 @@ layout: "../layouts/default.astro"
 
 
     <!-- factory-section -->
-    <section class="factory-section" style="background-image: url('/imagenes/factory-bg.jpg');">
+    <section class="factory-section" style="background-image: url('${import.meta.env.BASE_URL}imagenes/factory-bg.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-12 col-md-12 offset-xl-4 content-column">
@@ -694,8 +693,8 @@ layout: "../layouts/default.astro"
                     <div class="project-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="/imagenes/project-1.png" alt=""></figure>
-                                <a href="imagenes/project-1.jpg" class="lightbox-image" data-fancybox='gallery'><i class="icon-plus"></i></a>
+                                <figure class="image"><img src={`${import.meta.env.BASE_URL}imagenes/project-1.jpg`} alt="Project 1"></figure>
+                                <a href={`${import.meta.env.BASE_URL}imagenes/project-1.jpg`} class="lightbox-image" data-fancybox='gallery'><i class="icon-plus"></i></a>
                             </div>
                             <div class="lower-content">
                                 <div class="count-number">01</div>
@@ -709,8 +708,8 @@ layout: "../layouts/default.astro"
                     <div class="project-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="/imagenes/project-2.png" alt=""></figure>
-                                <a href="imagenes/project-2.jpg" class="lightbox-image" data-fancybox='gallery'><i class="icon-plus"></i></a>
+                                <figure class="image"><img src={`${import.meta.env.BASE_URL}imagenes/project-2.jpg`} alt="Project 2"></figure>
+                                <a href={`${import.meta.env.BASE_URL}imagenes/project-2.jpg`} class="lightbox-image" data-fancybox='gallery'><i class="icon-plus"></i></a>
                             </div>
                             <div class="lower-content">
                                 <div class="count-number">02</div>
@@ -724,8 +723,8 @@ layout: "../layouts/default.astro"
                     <div class="project-block-one wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="/imagenes/project-3.png" alt=""></figure>
-                                <a href="imagenes/project-3.jpg" class="lightbox-image" data-fancybox='gallery'><i class="icon-plus"></i></a>
+                                <figure class="image"><img src={`${import.meta.env.BASE_URL}imagenes/project-3.jpg`} alt="Project 3"></figure>
+                                <a href={`${import.meta.env.BASE_URL}imagenes/project-3.jpg`} class="lightbox-image" data-fancybox='gallery'><i class="icon-plus"></i></a>
                             </div>
                             <div class="lower-content">
                                 <div class="count-number">03</div>
@@ -739,8 +738,8 @@ layout: "../layouts/default.astro"
                     <div class="project-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="/imagenes/project-4.png" alt=""></figure>
-                                <a href="imagenes/project-4.jpg" class="lightbox-image" data-fancybox='gallery'><i class="icon-plus"></i></a>
+                                <figure class="image"><img src={`${import.meta.env.BASE_URL}imagenes/project-4.jpg`} alt="Project 4"></figure>
+                                <a href={`${import.meta.env.BASE_URL}imagenes/project-4.jpg`} class="lightbox-image" data-fancybox='gallery'><i class="icon-plus"></i></a>
                             </div>
                             <div class="lower-content">
                                 <div class="count-number">04</div>
@@ -809,10 +808,10 @@ layout: "../layouts/default.astro"
                 </div>
                 <div class="clients-outer">
                     <ul class="clients-logo-box clearfix">
-                        <li class="logo"><figure><a href="#"><img src="/imagenes/clients-1.png" alt=""></a></figure></li>
-                        <li class="logo"><figure><a href="#"><img src="/imagenes/clients-2.png" alt=""></a></figure></li>
-                        <li class="logo"><figure><a href="#"><img src="/imagenes/clients-3.png" alt=""></a></figure></li>
-                        <li class="logo"><figure><a href="#"><img src="/imagenes/clients-4.png" alt=""></a></figure></li>
+                        <li class="logo"><figure><a href="#"><img src={`${import.meta.env.BASE_URL}imagenes/clients-1.png`} alt=""></a></figure></li>
+                        <li class="logo"><figure><a href="#"><img src={`${import.meta.env.BASE_URL}imagenes/clients-2.png`} alt=""></a></figure></li>
+                        <li class="logo"><figure><a href="#"><img src={`${import.meta.env.BASE_URL}imagenes/clients-3.png`} alt=""></a></figure></li>
+                        <li class="logo"><figure><a href="#"><img src={`${import.meta.env.BASE_URL}imagenes/clients-4.png`} alt=""></a></figure></li>
                     </ul>
                 </div>
             </div>
@@ -822,7 +821,7 @@ layout: "../layouts/default.astro"
 
 
     <!-- team-section -->
-    <section class="team-section" style="background-image: url('/imagenes/team-bg.jpg');">
+    <section class="team-section" style="background-image: url('${import.meta.env.BASE_URL}imagenes/team-bg.jpg');">
         <div class="container">
             <div class="sec-title">
                 <h1>Equipo de expertos</h1>
@@ -831,7 +830,7 @@ layout: "../layouts/default.astro"
             <div class="three-column-carousel owl-carousel owl-theme">
                 <div class="team-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="#"><img src="/imagenes/team-1.png" alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img src={`${import.meta.env.BASE_URL}imagenes/team-1.jpg`} alt="Team 1"></a></figure>
                         <div class="lower-content">
                             <h4><a href="#">Enriquez Paez</a></h4>
                             <span class="designation">Senior Enginer</span>
@@ -840,7 +839,7 @@ layout: "../layouts/default.astro"
                 </div>
                 <div class="team-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="#"><img src="/imagenes/team-2.png" alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img src={`${import.meta.env.BASE_URL}imagenes/team-2.jpg`} alt="Team 2"></a></figure>
                         <div class="lower-content">
                             <h4><a href="#">Luis Ramirez</a></h4>
                             <span class="designation">Senior Factory Manager</span>
@@ -849,7 +848,7 @@ layout: "../layouts/default.astro"
                 </div>
                 <div class="team-block-one">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="#"><img src="/imagenes/team-3.png" alt=""></a></figure>
+                        <figure class="image-box"><a href="#"><img src={`${import.meta.env.BASE_URL}imagenes/team-3.jpg`} alt="Team 3"></a></figure>
                         <div class="lower-content">
                             <h4><a href="#">Jorge Torres</a></h4>
                             <span class="designation">Senior LOTT</span>
@@ -876,7 +875,7 @@ layout: "../layouts/default.astro"
                 <div class="col-lg-5 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-single.html"><img src="/imagenes/news-1.png" alt=""></a></figure>
+                            <figure class="image-box"><a href="blog-single.html"><img src={`${import.meta.env.BASE_URL}imagenes/news-1.jpg`} alt="News 1"></a></figure>
                             <div class="lower-content">
                                 <h4><a href="blog-single.html">Por qué no volveré a hacer un viaje misionero</a></h4>
                                 <div class="text">Nuestros intentos bienintencionados de servir a los negros y marrones apenas tuvieron repercusión</div>
@@ -891,25 +890,25 @@ layout: "../layouts/default.astro"
                 <div class="col-lg-4 col-md-6 col-sm-12 post-column">
                     <div class="post-inner wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
                         <div class="post">
-                            <figure class="post-thumb"><a href="blog-single.html"><img src="/imagenes/post-1.png" alt=""></a></figure>
+                            <figure class="post-thumb"><a href="blog-single.html"><img src={`${import.meta.env.BASE_URL}imagenes/post-1.jpg`} alt="Post 1"></a></figure>
                             <h5><a href="blog-single.html">Cuando una empresa ya no puede satisfacer las demandas</a></h5>
                             <div class="text">Nuestros intentos bienintencionados</div>
                             <span class="post-info">Jul 18, 2019  Read 1 Min</span>
                         </div>
                         <div class="post">
-                            <figure class="post-thumb"><a href="blog-single.html"><img src="/imagenes/post-2.png" alt=""></a></figure>
+                            <figure class="post-thumb"><a href="blog-single.html"><img src={`${import.meta.env.BASE_URL}imagenes/post-2.jpg`} alt="Post 2"></a></figure>
                             <h5><a href="blog-single.html">Lo más aterrador de DeepNude ware</a></h5>
                             <div class="text">Nuestros intentos bienintencionados</div>
                             <span class="post-info">Jul 17, 2019  Read 5 Min</span>
                         </div>
                         <div class="post">
-                            <figure class="post-thumb"><a href="blog-single.html"><img src="/imagenes/post-3.png" alt=""></a></figure>
+                            <figure class="post-thumb"><a href="blog-single.html"><img src={`${import.meta.env.BASE_URL}imagenes/post-3.jpg`} alt="Post 3"></a></figure>
                             <h5><a href="blog-single.html">¿Qué hace FaceApp con tus fotos?</a></h5>
                             <div class="text">Nuestros intentos bienintencionados</div>
                             <span class="post-info">Jul 17, 2019  Read 3 Min</span>
                         </div>
                         <div class="post">
-                            <figure class="post-thumb"><a href="blog-single.html"><img src="/imagenes/post-4.png" alt=""></a></figure>
+                            <figure class="post-thumb"><a href="blog-single.html"><img src={`${import.meta.env.BASE_URL}imagenes/post-4.jpg`} alt="Post 4"></a></figure>
                             <h5><a href="blog-single.html">Por qué necesitas infundir tu práctica creativa </a></h5>
                             <div class="text">Nuestros intentos bienintencionados</div>
                             <span class="post-info">Jul 16, 2019  Read 4 Min</span>
@@ -939,60 +938,7 @@ layout: "../layouts/default.astro"
     <footer class="main-footer">
         <div class="container">
             <div class="footer-top">
-                <div class="bg-column"></div>
                 <div class="widget-section">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="logo-widget footer-widget">
-                                <figure class="footer-logo"><a href="index.html"><img src="/imagenes/footer-logo.png" alt=""></a></figure>
-                                <div class="text">Con más de 15 años de experiencia, nos aseguraremos de que siempre reciba la mejor orientación.</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="links-widget company-widget footer-widget">
-                                <h4 class="widget-title">Empresa</h4>
-                                <div class="widget-content">
-                                    <ul>
-                                        <li><a href="#">Fábrica</a></li>
-                                        <li><a href="#">Mapa del sitio</a></li>
-                                        <li><a href="#">Accesibilidad</a></li>
-                                        <li><a href="#">Empresa</a></li>
-                                        <li><a href="#">Acerca de</a></li>
-                                        <li><a href="#">Acérquese a</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md=6 col-sm-12 footer-column">
-                            <div class="links-widget footer-widget">
-                                <h4 class="widget-title">Soluciones</h4>
-                                <div class="widget-content">
-                                    <ul>
-                                        <li><a href="#">Materiales electrónicos</a></li>
-                                        <li><a href="#">Regalos y Ropa</a></li>
-                                        <li><a href="#">Recambios para automóviles</a></li>
-                                        <li><a href="#">Maquinaria pesada</a></li>
-                                        <li><a href="#">Máquina herramienta</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                            <div class="links-widget footer-widget">
-                                <h4 class="widget-title">Industrias digitales</h4>
-                                <div class="widget-content">
-                                    <ul>
-                                        <li><a href="#">Ingeniería mecánica</a></li>
-                                        <li><a href="#">Construcción industrial</a></li>
-                                        <li><a href="#">Construcción de puentes</a></li>
-                                        <li><a href="#">Petróleo y gas Energía</a></li>
-                                        <li><a href="#">Sistemas de energía</a></li>
-                                        <li><a href="#">Gestión de edificios</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="footer-bottom clearfix">
@@ -1009,29 +955,25 @@ layout: "../layouts/default.astro"
     </footer>
     <!-- main-footer end -->
 
+    <!--Scroll to top-->
+    <button class="scroll-top scroll-to-target" data-target="html">
+        <i class="icon-arrow-up"></i>
+    </button>
 
+    <!-- jQuery Plugins -->
+    <script src={`${import.meta.env.BASE_URL}js/jquery.js`} defer></script>
+    <script src={`${import.meta.env.BASE_URL}js/popper.min.js`} defer></script>
+    <script src={`${import.meta.env.BASE_URL}js/bootstrap.min.js`} defer></script>
+    <script src={`${import.meta.env.BASE_URL}js/owl.js`} defer></script>
+    <script src={`${import.meta.env.BASE_URL}js/wow.js`} defer></script>
+    <script src={`${import.meta.env.BASE_URL}js/validation.js`} defer></script>
+    <script src={`${import.meta.env.BASE_URL}js/jquery.fancybox.js`} defer></script>
+    <script src={`${import.meta.env.BASE_URL}js/appear.js`} defer></script>
+    <script src={`${import.meta.env.BASE_URL}js/aos.js`} defer></script>
+    <script src={`${import.meta.env.BASE_URL}js/jquery.countTo.js`} defer></script>
 
-<!--Scroll to top-->
-<button class="scroll-top scroll-to-target" data-target="html">
-    <i class="icon-arrow-up"></i>
-</button>
-
-
-
-<!-- jQuery Plugins -->
-<script src="/js/jquery.js" defer></script>
-<script src="/js/popper.min.js" defer></script>
-<script src="/js/bootstrap.min.js" defer></script>
-<script src="/js/owl.js" defer></script>
-<script src="/js/wow.js" defer></script>
-<script src="/js/validation.js" defer></script>
-<script src="/js/jquery.fancybox.js" defer></script>
-<script src="/js/appear.js" defer></script>
-<script src="/js/aos.js" defer></script>
-<script src="/js/jquery.countTo.js" defer></script>
-
-<!-- main-js -->
-<script src="/js/script.js" defer></script>
+    <!-- main-js -->
+    <script src={`${import.meta.env.BASE_URL}js/script.js`} defer></script>
 
 </body><!-- End of .page_wrapper -->
 </html>
